@@ -15,6 +15,20 @@
         android:theme="@style/Theme.FilmesApp"
         tools:targetApi="33">
         <activity
+            android:name=".CadastroActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".FilmeDesc"
             android:exported="false">
             <meta-data

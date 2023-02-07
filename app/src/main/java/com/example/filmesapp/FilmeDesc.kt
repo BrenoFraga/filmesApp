@@ -17,6 +17,7 @@ class FilmeDesc : AppCompatActivity() {
         binding = ActivityFilmeDescBinding.inflate(layoutInflater)
         setContentView(binding.root)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        supportActionBar?.title = ""
         filme = intent.extras?.getSerializable("filme") as FilmeVO
         initData()
     }
